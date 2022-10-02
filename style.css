@@ -1,0 +1,295 @@
+#navbar{
+
+background-color: rgb(133, 189, 171);
+border-radius: 3px;
+position: fixed;
+margin-right: -260px;
+margin-top: -18px;
+padding-right: 265px;
+height: 80px;
+}
+#navbar li{
+    float: left;
+    list-style: none;
+    margin: 14px 0px ;
+}
+#navbar ul{
+    overflow:hidden ;
+}
+#navbar li a{
+    
+    padding: 30px 30px;
+    font-size: x-large;
+    text-decoration: none ;
+    color: white;
+    transition: font-size 2s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+#navbar li a:hover{
+    color: brown;
+    font-size: xx-large;
+   
+}
+.searchbox{
+    float: right;
+    padding: 10px 45px 17px 343px;
+    margin: -62px -49px 1px 76px;
+    
+
+}
+#navbar input{
+    padding: 6px 15px;
+    border-radius: 15px;
+    width: 220px;
+    padding: 9px 8px 3px 31px;
+    margin: 65px 11px 15px 11px;
+    height: 17px;
+    
+    
+}
+.btn{
+    background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: -4px 2px 2px 2px;
+  text-align: right;
+}
+.btn:hover{
+    background-color: RoyalBlue;
+}
+.Know{
+    padding-top: 70px;
+    overflow: auto;
+    background-color: rgb(26, 37, 37);
+    width: 100%;
+    display: block;
+    color: antiquewhite;
+    font-size:xx-large;
+    position: positional;
+    
+    
+    
+}
+.Know h1{
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    margin: -13px 56px 30px 56px;
+    font-family: Lucida Handwriting,cursive ;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+.Know img{
+    display: block;
+    margin: 30px 485px 40px 485px;
+    border-radius: 50%;
+    width: 450px;
+    justify-content: center;
+    z-index: 2;
+}
+@keyframes example{
+  from{color: antiquewhite;}
+  to{color: rgb(140, 109, 157) ;}
+}
+.Profile{
+   background-color:rgb(26, 37, 37);
+   width: 100%;
+   margin-top: -114px ;
+
+}
+.Profile h1{
+    font-size: 115px;
+    color: rgb(24, 124, 128);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 7px ;
+    text-shadow: 1px 2px 4px black,0 0 25px blue, 0 0 5px  rgb(153, 153, 183);
+}
+.Profile div{
+    width: 100%;
+    margin-bottom: auto;
+}
+.Profile img{
+    display: block;
+    margin-left: 70%;
+    margin-right:  0%;
+    margin-bottom: 40%;
+    width: 25%;
+    border-radius: 13px;
+    align-items: left;
+    max-width: 25%;
+    height: auto;
+    color: beige;
+
+      }
+.Profile p{
+    color: beige;
+    font-size: x-large;
+    padding: -11px 10px;
+    margin: 3px 35px -30px 41px;
+    word-spacing: 3px;
+    font-family: Brush Script MT,cursive ;
+    word-wrap: normal;
+    
+    
+}
+#prof{
+    text-align: justify;
+    align-items: center;
+    width: 900px;
+    float: left;
+}
+#Link3{
+    background-color:rgb(26, 37, 37);
+   width: 100%;
+   margin-top: -325px ;
+   margin-bottom: 555px;
+   height: 1214px;
+}
+.gallery img {
+    display: block;
+    margin: 44px 55px 38px 246px;
+    border: 1px solid #ccc;
+    width: 345px;
+    height: auto;
+    float: left;
+}
+div.gallery{
+    border-spacing: 5px;
+}
+#result{
+    margin: 682px 165px 178px 90px;
+    width: fit-content;
+}
+.Class {
+    font-size: xx-large;
+    color: rgb(194, 158, 111);
+    text-align: center;
+    text-decoration: underline;
+    
+} 
+#results{
+    width: fit-content;
+    margin: -70px 0px 178px 0px;
+}
+#Link4{
+    background-color:rgb(26, 37, 37);
+   width: 100%;
+   margin-top: -411px;
+   margin-bottom: 555px;
+   height: 1170px;
+}
+.gal img{
+    display: block;
+    margin: 61px -149px 13px 200px;
+    border: 1px solid #ccc;
+    width: 345px;
+    height: 200px;
+    float: left;
+}
+#PChess{
+    margin: 480px 165px 178px 90px;
+    width: fit-content;
+}
+.Profile ul{
+    color: beige;
+    font-size: x-large;
+    padding: -11px 10px;
+    margin: 51px 35px -30px 41px;
+    word-spacing: 3px;
+    font-family: Brush Script MT,cursive ;
+    word-wrap: normal;
+}
+#write{
+    margin: -28px 0px 178px 0px;
+    width: 100%;
+    height: 400px;
+}
+#Footer{
+    background-color: aliceblue;
+    width: 85%;
+    height:300px;
+    margin: 25px 15px 10px 110px;
+}
+#write li a:link{
+    color: rgb(93, 237, 90);
+    text-decoration: none;
+}
+#write li a:visited{
+    color: rgb(248, 242, 69);
+    text-decoration: none;
+}
+#write li a:hover{
+    color:rgb(255, 127, 249);
+    text-decoration: underline;
+}
+#write li a:active{
+    color: rgb(37, 255, 255);
+    text-decoration: underline;
+}
+#foot{
+    background-color:rgb(26, 37, 37);
+    width: 100%;
+    margin-top: 42px ;
+    margin-bottom: 555px;
+    height: 1214px;
+    padding-top: 168px;
+}
+#Footer li{
+    color: black;
+    list-style: none;
+}
+.icons li{
+    float: left;
+    padding-left: 70px;
+    font-size: xx-large;
+} 
+.icons li a:hover{
+    opacity: 0.7;
+}
+
+.f h1{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    text-shadow: none;
+}
+.fa-instagram{
+    background-color: rgb(184, 42, 65);
+    color: white;
+    width: 34px;
+    padding: 8px 8px 8px 13px;
+    border-radius: 50%;
+}
+.fa-linkedin{
+    background-color: rgb(71, 130, 211);
+    color: white;
+    width: 34px;
+    padding: 8px 8px 8px 13px;
+    border-radius: 50%;
+}
+.fa-facebook{
+    background-color: rgb(45, 45, 202);
+    color: white;
+    width: 34px;
+    padding: 8px 8px 8px 13px;
+    border-radius: 50%;
+}
+.fa-github{
+    background-color: black;
+    color: white;
+    width: 34px;
+    padding: 8px 8px 8px 13px;
+    border-radius: 50%;
+
+}
+@media screen and(max width: 600px) {
+    #navbar li a{
+        font-size: 2px;
+    }
+}
